@@ -1,0 +1,24 @@
+{
+  "name": "commerceguys/tree",
+  "description": "A PHP library that offers support for building and querying hierarchical entities.",
+  "license": "MIT",
+  "keywords": ["tree", "library", "php"],
+  "homepage": "https://github.com/commerceguys/tree",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Damien Tournoud",
+      "email": "damien@commerceguys.com"
+    },
+    {
+      "name": "Andrei Mateescu",
+      "email": "andrei@amateescu.me"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "psr-0": { "Tree": "src/" }
+  }
+}
